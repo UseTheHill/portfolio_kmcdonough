@@ -102,11 +102,11 @@ header {
 /* Gallery */
 .section-heading {
     position: relative;
-    display: blcok;
+    display: block;
     margin-bottom: 100px;
 }
 
-.section-heading::before {
+/* .section-heading::before {
     content: "";
     position: absolute;
     background-color: rgba(56, 65, 71, 0.5);
@@ -114,12 +114,12 @@ header {
     height: 50px;
     top: 53px;
     border-radius: 8px;
-}
+} */
 
 .heading-title {
     text-transform: uppercase;
     color: #384147;
-    font-size: 22px;
+    font-size: 50px;
 }
 
 .lightbox-content {
@@ -197,14 +197,16 @@ footer h5 {
 }
 
 /*large screens*/
-@media screen and (min-width: 1200px) {
+/* \@media screen and (min-width: 1200px) {
+
+    /*
     .about-description{
         top: 50%;
         width: 40%;
         outline: 10px solid rgba(56, 65, 71, 0.5);
         outline-offset: -20px;
     }
-    .about-image img{
-        width: 80%;
-    }
-}
+    /* .about-image img{
+        height: 50%;
+        width: auto%;
+    } */
