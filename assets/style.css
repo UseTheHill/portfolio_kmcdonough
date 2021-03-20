@@ -1,6 +1,7 @@
 html {
     font-family: 'Baloo Tamma 2', cursive;
     background-color: #f2f4c5;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #f2f4c5;
@@ -52,17 +53,11 @@ header {
     font-size: 25px;
 }
 
-.navbar-toggler .fa-times {
-    display: none;
-}
 
 .navbar-toggler .menu-open .fa-bars {
     display: none;
 }
 
-.navbar-toggler .menu-open .fa-times {
-    display: block;
-}
 
 .navbar-nav {
     padding: 20px;
@@ -145,6 +140,7 @@ header {
     margin-bottom: 0;
 }
 
+
 .portfolio-content img {
     transition: transform 2s;
     
@@ -179,6 +175,10 @@ footer a:hover {
     opacity: .6;
 }
 
+#footer-copyright{
+    border-top: 2px solid #dad625;
+    
+}
 /*breakpoints*/
 /*medium devices*/
 @media screen and (min-width: 768px) {
@@ -196,38 +196,14 @@ footer a:hover {
     }
     nav:hover .nav-link:not(:hover){
         opacity: .5;
-    }
-    
-    /* .about-content{
-        position: relative;
-        display: block;
-    }
-    .about-description{
-        position: absolute;
-        top: 40%;
-        transform: translateY(50%);
-        width: 60%;
-        outline-offset: -10px;
-    }
-    .about-image img{
-        width: 70%;
-        margin-left: ;
-    } */
-    
-
+    }   
 }
 
-/*large screens*/
-/* \@media screen and (min-width: 1200px) {
-
-    /*
-    .about-description{
-        top: 50%;
-        width: 40%;
-        outline: 10px solid rgba(56, 65, 71, 0.5);
-        outline-offset: -20px;
+@media screen and (min-width: 992px) {
+    .about-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    /* .about-image img{
-        height: 50%;
-        width: auto%;
-    } */
+    
+}
