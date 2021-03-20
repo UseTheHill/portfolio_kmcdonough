@@ -1,7 +1,10 @@
 html {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: #f2f4c5;
 }
-
+body{
+    background-color: #f2f4c5;
+}
 a:hover {
     text-decoration: none;
 
@@ -14,34 +17,38 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f2f4c5;
 }
 
 .signature {
-    color: #384147;
+    color: #0e4838;
     text-align: center;
     user-select: none;
+    background-color: #f2f4c5;
 }
 
 .signature-heading {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 50px;
     margin-bottom: 30px;
+    
 }
 
 .signature-subhead {
     font-family: serif;
-    font-size: 12px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 0;
 }
 
 .navbar {
-    background-color: #384147;
+    background-color: #a0b8aa;
+    border-radius: 8px;
 
 }
 
 .navbar-toggler i {
-    color: #fff;
+    color: #dad625;
     font-size: 25px;
 }
 
@@ -62,14 +69,14 @@ header {
 }
 
 .nav-link {
-    color: #fff;
+    color: #0e4838;
     text-transform: uppercase;
     font-size: 12px;
     transition: opacity .5s;
 }
 
 .nav-link:hover {
-    color: #fff;
+    color: #0e4838;
 
 }
 
@@ -81,9 +88,9 @@ header {
 
 .about-description {
     width: 100%;
-    background-color: #fff;
+    background-color: #f2f4c5;
     padding: 40px;
-    outline: 5px solid rgba(56, 65, 71, 0.5);
+    outline: 5px solid rgba(218, 214, 37, 0.5);
     outline-offset: -5px;
     order: 2;
     margin-top: 5px;
@@ -118,7 +125,7 @@ header {
 
 .heading-title {
     text-transform: uppercase;
-    color: #384147;
+    color: #0e4838;
     font-size: 50px;
 }
 
@@ -129,6 +136,7 @@ header {
 
 .lightbox-content img {
     transition: transform 2s;
+    
 }
 
 .lightbox-content img:hover {
@@ -137,19 +145,21 @@ header {
 
 /*footer*/
 footer {
-    background-color: #151515;
+    background-color: #a0b8aa;
+    font-family: 'Roboto Slab', serif;
 }
 footer h5 {
-    color: #fff;
+    color: #0e4838;
+    background-color: #a0b8aa;
 }
 
 .text-muted{
-    color: rgba(255,255,255, .7) im !important;
+    color: rgba(14, 72, 56, .7) !important;
 }
 
 .input-group .btn {
     background-color: #384147;
-    color: #fff;
+    color: #f2f4c5;
     transition: opacity .5s;
 
 }
@@ -157,7 +167,6 @@ footer h5 {
 .input-group .btn:hover {
     opacity: .6;
 }
-
 
 /*breakpoints*/
 /*medium devices*/
@@ -169,14 +178,15 @@ footer h5 {
         padding: 0;
     }
     .nav-link{
-        color:#384147;
+        color:#0e4838;
     }
     .nav-link:hover{
-        color: inherit;
+        color: #0e4838;
     }
     nav:hover .nav-link:not(:hover){
         opacity: .5;
     }
+    
     /* .about-content{
         position: relative;
         display: block;
