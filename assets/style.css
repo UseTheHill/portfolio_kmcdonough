@@ -8,7 +8,7 @@ body{
 }
 a:hover {
     text-decoration: none;
-
+    
 }
 
 /*header*/
@@ -72,7 +72,7 @@ header {
 
 .nav-link:hover {
     color: #0e4838;
-
+    opacity: .6;
 }
 
 /*about*/
@@ -188,6 +188,11 @@ footer a:hover {
     .navbar-nav {
         padding: 0;
     }
+
+    .navbar-nav li a{
+        font-size: 14px;
+    }
+
     .nav-link{
         color:#0e4838;
     }
@@ -218,6 +223,9 @@ footer a:hover {
 
     #projects_row {
         flex-wrap: nowrap;
+    }
+    .navbar-nav li a{
+        font-size: 16px;
     }
     
 }
