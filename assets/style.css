@@ -205,8 +205,17 @@ footer a:hover {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: nowrap;  
     }
+
+    .about-content img{
+        border-radius: 10px;
+    }
+
+    .about-description{
+        outline: none;
+    } 
+
     #projects_row {
         flex-wrap: nowrap;
     }
